@@ -8,8 +8,8 @@ router.get("/", (req, res) => {
     order: [["created_at", "DESC"]],
     attributes: [
       "id",
-      "post_url",
       "title",
+      "content",
       "created_at"
     ],
     include: [
@@ -50,8 +50,8 @@ router.get("/:id", (req, res) => {
     order: [["created_at", "DESC"]],
     attributes: [
       "id",
-      "post_url",
       "title",
+      "content",
       "created_at"
     ],
     include: [
@@ -85,10 +85,10 @@ router.get("/:id", (req, res) => {
 
 //create a post
 router.post("/", (req, res) => {
-  // expects {title: 'Taskmaster goes public!', post_url: 'https://taskmaster.com/press', user_id: 1}
+  // expects {title: 'Taskmaster News!', content: 'Taskmaster has decided to go public', user_id: 1}
   Post.create({
     title: req.body.title,
-    post_url: req.body.post_url,
+    content: req.body.content,
     user_id: req.body.user_id,
   })
     .then((dbPostData) => res.json(dbPostData))
