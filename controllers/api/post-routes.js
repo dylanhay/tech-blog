@@ -48,7 +48,6 @@ router.get("/:id", (req, res) => {
     where: {
       id: req.params.id,
     },
-    order: [["created_at", "DESC"]],
     attributes: [
       "id",
       "title",
@@ -125,7 +124,7 @@ router.put("/:id", withAuth, (req, res) => {
 });
 
 //delete a post
-router.delete("/:id", withAuth, (req, res) => {
+router.delete("/:id", (req, res) => {
   Post.destroy({
     where: {
       id: req.params.id,
