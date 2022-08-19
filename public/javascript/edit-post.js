@@ -2,6 +2,7 @@ async function editFormHandler(event) {
   event.preventDefault();
 
   const content = document.querySelector('input[name="post-content"]').value;
+
   const id = window.location.toString().split("/")[
     window.location.toString().split("/").length - 1
   ];
@@ -9,7 +10,7 @@ async function editFormHandler(event) {
   const response = await fetch(`/api/posts/${id}`, {
     method: "PUT",
     body: JSON.stringify({
-      content,
+      content
     }),
     headers: {
       "Content-Type": "application/json",
