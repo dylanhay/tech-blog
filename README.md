@@ -44,7 +44,7 @@ Once the above steps have been followed, follow the steps below to run the appli
 * Heroku & JawsDB
 
 ## Deployed Application
-
+https://tech-news-blog-dch.herokuapp.com/
 
 ## Contribution
 Made with ❤️ by Dylan Hay
