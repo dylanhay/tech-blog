@@ -10,7 +10,7 @@ Tech blog website where users can create their own posts and comment on other us
 [Contribution](#contribution)  
 
 ## Installation Instructions
-npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, dotenv, bcrypt, Handlebars, and sessions must be installed to use this application.
+npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, dotenv, bcrypt, Handlebars, express-session and connect-session-sequelize must be installed to use this application.
 
 * To initialize npm, enter "npm init" in terminal while in the root folder of the project
 * Node.js can be downloaded and installed from https://nodejs.org/en/download/  
@@ -19,7 +19,7 @@ npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, dotenv, bcrypt, Handlebars, 
 * To install the dotenv package, enter "npm install dotenv" in terminal while in the root folder of the project
 * To install the bcrypt package, enter "npm install bcrypt" in terminal while in the root folder of the project  
 * To install Handlebars, enter "npm install express-handlebars" in terminal while in the root folder of the project
-* To install sessions, enter "npm i express-session connect-session-sequelize" in terminal while in the root folder of the project 
+* To install express-session and connect-session-sequelize, enter "npm i express-session connect-session-sequelize" in terminal while in the root folder of the project
 
 Once the above steps have been followed, follow the steps below to run the application: 
 * Enter the database name, your MySQL username and your password into the .env file
@@ -28,8 +28,20 @@ Once the above steps have been followed, follow the steps below to run the appli
 * Enter "npm start" in terminal to launch live server
 
 ## Built With
-* Node.js
+* HTML
+* CSS
 * JavaScript
+* Node.js
+* MySQL & MySQL2
+* Sequelize
+* dotenv
+* bcrypt
+* Handlebars.js
+* Express.js
+* express-session
+* connect-session-sequelize
+* Jest
+* Heroku & JawsDB
 
 ## Deployed Application
 
