@@ -34,6 +34,6 @@ app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 // turn on connection to db and server
-sequelize.sync({ alert: true }).then(() => {
+sequelize.sync({ alter: true }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
