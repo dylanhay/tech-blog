@@ -5,12 +5,16 @@ Tech blog website where users can create their own posts and comment on other us
 
 ## Table of Contents
 [Deployed Application](#deployed-application)  
+[Landing Page](#landing-page)  
 [Built With](#built-with)  
 [Installation Instructions](#installation-instructions)   
 [Contribution](#contribution)  
 
 ## Deployed Application
 https://tech-news-blog-dch.herokuapp.com/  
+
+## Landing Page
+![Screenshot](./public/images/tech-blog-landpage.png "Landing Page")
 
 ## Built With
 * HTML
