@@ -1,38 +1,41 @@
 # Tech Blog
 
 ## Description
-Tech blog website where users can create their own posts and comment on other users' posts.
+Tech blog where users can create their own posts about tech news outlets and comment on other users' posts.
 
 ## Table of Contents
 [Deployed Application](#deployed-application)  
-[Landing Page](#landing-page)  
 [Built With](#built-with)  
-[Installation Instructions](#installation-instructions)   
+[Landing Page](#landing-page)  
+[Installation](#installation)   
+[Testing](#testing)  
 [Contribution](#contribution)  
 
 ## Deployed Application
 https://tech-news-blog-dch.herokuapp.com/  
 
+## Built With
+* JavaScript
+* Node.js
+* Express.js
+* MySQL2
+* Sequelize
+* Sessions
+* dotenv
+* bcrypt
+* Handlebars
+* HTML
+* CSS
+* Jest
+* Git
+* Insomnia
+* Heroku
+* JawsDB
+
 ## Landing Page
 ![Screenshot](./public/images/tech-blog-landpage.png "Landing Page")
 
-## Built With
-* HTML
-* CSS
-* JavaScript
-* Node.js
-* MySQL & MySQL2
-* Sequelize
-* dotenv
-* bcrypt
-* Handlebars.js
-* Express.js
-* express-session
-* connect-session-sequelize
-* Jest
-* Heroku & JawsDB
-
-## Installation Instructions
+## Installation
 npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, dotenv, bcrypt, Handlebars, express-session and connect-session-sequelize must be installed to use this application locally.
 
 * To initialize npm, enter "npm init" in terminal while in the root folder of the project
@@ -50,6 +53,8 @@ Once the above steps have been followed, follow the steps below to run the appli
 * Enter "source db/schema.sql" in the MySQL Shell to create the "tech_blog_db" database
 * Enter "npm start" in terminal to launch live server
 
+## Testing
+* Enter `npm test` in the CLI while in the root folder to run Jest
 
 ## Contribution
 Made with ❤️ by Dylan Hay
