@@ -1,7 +1,7 @@
 # Tech Blog
 
 ## Description
-Tech blog where users can create their own posts about tech news outlets and comment on other users' posts.
+Tech news blog where users can create their own posts about tech news outlets and comment on other users' posts.
 
 ## License  
 This application is covered under the following license. Please review the link below for additional information pertaining to the license.
