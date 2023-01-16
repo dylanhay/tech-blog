@@ -1,4 +1,4 @@
-# Tech Blog
+# Tech News
 
 ## Description
 Tech news blog where users can create their own posts about tech news outlets and comment on other users' posts.
@@ -53,8 +53,8 @@ To run locally once cloned:
 * Enter `mysql -u root -p` in the CLI and enter your MySQL password to navigate to the MySQL Shell
 * Enter `source db/schema.sql` in the MySQL Shell to create the `tech_blog_db` database
 * Exit the MySQL Shell and enter `npm run seed` in the CLI to seed the database
-* Enter `npm start` in the CLI to launch live server
-* Routes can tested and database can be edited via an API development platform such as Insomnia
+* Enter `npm start` in the CLI to launch the application locally at `http://localhost:3001/`
+* Routes can also be tested and database can be edited via an API development platform such as Insomnia
 
 ## Testing
 * Enter `npm test` in the CLI while in the root folder to run Jest
